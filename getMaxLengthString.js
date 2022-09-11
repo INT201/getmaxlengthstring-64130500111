@@ -1,4 +1,4 @@
-// const { template } = require('@babel/core')
+const { template } = require('@babel/core')
 
 function getMaxLengthString(arrayOfString) {
   let Answer = [""]
@@ -16,6 +16,6 @@ function getMaxLengthString(arrayOfString) {
   }
 }
 // console.log(getMaxLengthString(["hello", "hi", "hey"]))
-console.log(getMaxLengthString(['hello', 'hi', 'hey', 'Good Evening', 'Good Morning']))
-// module.exports = getMaxLengthString
+// console.log(getMaxLengthString(['hello', 'hi', 'hey', 'Good Evening', 'Good Morning']))
+module.exports = getMaxLengthString
 
